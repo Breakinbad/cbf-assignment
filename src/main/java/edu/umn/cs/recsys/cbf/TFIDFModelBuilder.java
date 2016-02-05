@@ -73,7 +73,7 @@ public class TFIDFModelBuilder implements Provider<TFIDFModel> {
             Long2DoubleMap work = new Long2DoubleOpenHashMap();
 
             // TODO Populate the work vector with the number of times each tag is applied to this item.
-
+            //fart big time
             // TODO Increment the document frequency vector once for each unique tag on the item.
 
             // Save the vector in our map, we'll add IDF and normalize later.
