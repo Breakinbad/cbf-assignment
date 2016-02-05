@@ -81,7 +81,7 @@ public class TFIDFModelBuilder implements Provider<TFIDFModel> {
             // TODO this came from the example file in class.
             //it is prolly not currently correct yet
             //fart big time
-
+            /*
             File file = new File("messages");
             // Store the vector for each file (by its file name)
             Map<String, Map<String,Integer>> documents = new HashMap<>();
@@ -154,6 +154,7 @@ public class TFIDFModelBuilder implements Provider<TFIDFModel> {
 
 
 
+        */
 
 
 
