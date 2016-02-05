@@ -78,9 +78,12 @@ public class TFIDFModelBuilder implements Provider<TFIDFModel> {
             // Create a work vector to accumulate this item's tag vector.
             Long2DoubleMap work = new Long2DoubleOpenHashMap();
 
+            // TODO Populate the work vector with the number of times each tag is applied to this item.
             // TODO this came from the example file in class.
             //it is prolly not currently correct yet
             //fart big time
+
+
             /*
             File file = new File("messages");
             // Store the vector for each file (by its file name)
