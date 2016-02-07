@@ -84,7 +84,7 @@ public class TFIDFItemScorer extends AbstractItemScorer {
                     //similarity = runningTotal/(magnitude("this"vector) * magnitude(userVector))
 
 
-
+//sepideh
 
 
 
