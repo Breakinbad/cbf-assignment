@@ -91,7 +91,7 @@ public class TFIDFItemScorer extends AbstractItemScorer {
             // magnitude is( a vector)
                 //for each element in the vector
                     //runningTotal += vector.rating[element] * vector.rating[element]
-                //magnitude is squareRoot(square(runningTotal))
+                //magnitude is squareRoot(runningTotal)
 
             // TODO And remove this exception to say you've implemented it
             // If the denominator of the cosine similarity is 0, skip the item
@@ -103,67 +103,4 @@ public class TFIDFItemScorer extends AbstractItemScorer {
         return Results.newResultMap(results);
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
