@@ -68,8 +68,26 @@ public class TFIDFItemScorer extends AbstractItemScorer {
             Long2DoubleMap iv = model.getItemVector(item);
 
             // TODO Compute the cosine of this item and the user's profile, store it in the output list
+
+            //the cosine is:
+
+
+            // for each item that exists
+                //create a vector for "this" item (which is: )
+                //for each user that has rated "this" item,
+                    // add to "this" vector all the other items that user has rated.
+
+                //for each element in "this" vector
+                    // for each user that has rated,
+                        // runningTotal += t.vector[element] * user.vector[element]
+
+                    //similarity = runningTotal/(magnitude("this"vector) * magnitude(userVector))
+
+
+
             // TODO And remove this exception to say you've implemented it
             // If the denominator of the cosine similarity is 0, skip the item
+
             // HINT Take a look at the Vectors class in org.lenskit.util.math.
             throw new UnsupportedOperationException("stub implementation");
         }
