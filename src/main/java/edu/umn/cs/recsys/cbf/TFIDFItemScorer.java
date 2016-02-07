@@ -93,6 +93,12 @@ public class TFIDFItemScorer extends AbstractItemScorer {
                     //runningTotal += vector.rating[element] * vector.rating[element]
                 //magnitude is squareRoot(runningTotal)
 
+
+            // jim : hereby passed gas
+
+
+
+
             // TODO And remove this exception to say you've implemented it
             // If the denominator of the cosine similarity is 0, skip the item
 
